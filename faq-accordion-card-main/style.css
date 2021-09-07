@@ -1,0 +1,79 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 5em;}
+.attribution a { color: hsl(228, 45%, 44%); }
+/*--------------------------------------------------*/
+
+body {
+    background-color:hsl(273, 75%, 66%);
+}
+
+body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 8em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+}
+
+.img-div {
+    display: grid;
+    place-items: center;
+}
+
+.first-img {
+    margin-top: -6.5em;
+    margin-left: -2em;
+}
+
+.second-img {
+    margin-top: -5.5em;
+    margin-right: 0em;
+}
+
+.faq-div {
+    width: 100%;
+    padding: 3em;
+    padding-left: 0;
+}
+
+.faq-div h2 {
+    text-align: center;
+}
+
+.faq-div p {
+    max-width: 38ch;
+    height: 5em;
+    border-bottom: solid 0.1em grey;
+    transition: all 500ms;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.arrow {
+    margin-left: 1em;
+    transition: transform 500ms;
+}
+
+.arrow-clicked {
+    transform: rotate(180deg);
+    transition: transform ease-in-out 500ms;
+}
+
+.hide {
+    display: none;
+}
+
+.question-clicked {
+    opacity: 1;
+    transition: opacity ease-in-out 500ms;
+}
